@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical" android:background="@android:color/white"
+
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ic_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="10dp"
+                android:textColor="@android:color/primary_text_light"
+                android:text="Nama"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_asal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="Asal"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tv_nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:background="@drawable/bg"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginEnd="10dp"
+            android:text="17.11.1370"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
